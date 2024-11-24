@@ -1,0 +1,241 @@
+:root {
+    --yellow-color: #FFB30E;
+    --orange-color: #F17228;
+    --black-color: black;
+    --white-color: #fff;
+}
+
+.bi {
+    color: var(--yellow-color);
+}
+
+.my-btn {
+    box-shadow: 0 4px 8px 0 rgb(255 179 14 / 40%), 0 6px 20px 0 rgb(255 179 14 / 36%);
+    background: var(--white-color);
+    color: var(--yellow-color);
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.my-btn:hover {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+
+.banner {
+    background-image: linear-gradient(to right, var(--yellow-color), #e79d00);
+    height: 500px;
+}
+
+.banner .conn {
+    height: 500px;
+}
+
+.banner-pickup {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner-pickup .nav-pills .nav-link.active {
+    background-color: #f1722830;
+    color: #f17228;
+    font-weight: 700;
+}
+
+.banner-pickup .nav-pills .nav-link {
+    color: #575757;
+    font-weight: 700;
+}
+
+.banner-heading {
+    color: var(--white-color);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.btn-main {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+
+.btn-main .bi {
+    color: var(--white-color);
+}
+
+.btn-main:hover {
+    background: var(--yellow-color);
+    color: var(--white-color);
+}
+
+.offer-card figcaption {
+    position: absolute;
+    background: var(--yellow-color);
+    top: 179px;
+    color: white;
+    width: 40%;
+    border-radius: 0px 20px 0 5px;
+}
+
+.percentage {
+    font-size: 60px;
+}
+
+.offer-card {
+    position: relative;
+}
+
+.off-heading {
+    font-size: 20px;
+}
+
+.off-day {
+    background: #f172284f;
+    color: #F17228;
+    font-weight: 700;
+}
+
+.how-heading {
+    text-align: center;
+    color: #F17228;
+    font-size: 43px;
+}
+
+.how {
+    background-color: #FFCE6738;
+    background-image: linear-gradient(#FFCE6738, white);
+}
+
+footer {
+    background: #212121;
+    color: white;
+}
+
+.cities {
+    list-style: none;
+    column-count: 5;
+    padding: 3px;
+}
+
+.cities li {
+    margin-bottom: 6px;
+    color: #F5F5F5;
+}
+
+.city-sec {
+    border-bottom: 1px solid #ffffff47;
+}
+
+.foot-heading {
+    font-size: 22px;
+}
+
+.compn {
+    list-style: none;
+    padding: 0px;
+}
+
+.compn li {
+    margin-bottom: 6px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.form-control {
+    border-radius: 0.375rem;
+}
+
+.btn-subscribe {
+    background-color: #ffa500;
+    /* Orange color */
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn-subscribe:hover {
+    box-shadow: 0 0 10px 2px rgba(255, 165, 0, 0.8);
+    /* Glow effect */
+}
+
+.subscribe-form .input-group-text {
+    border: none;
+    background: #424242;
+}
+
+.subscribe-form input.form-control {
+    background: #424242;
+    border: none;
+    color: white;
+}
+
+.follow-sec {
+    padding-left: 11%;
+}
+
+.bestDealHeading {
+    font-size: 57px;
+}
+
+.best-deal {
+    background: url(../images/Best-deal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.best-deal-btn {
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    background: #F17228;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.crispy-sec {
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 20px 8px 0 rgb(0 0 0 / 0%), 0px 5px 20px 7px rgb(0 0 0 / 12%);
+}
+
+.crispy-heading {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.color-yelloo {
+    color: #e79d00;
+}
+
+.crispy-pera {
+    font-size: 20px;
+}
+
+.crispy-btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #FFB800;
+    color: white;
+    border-radius: 5px;
+}
+
+.crispy-btn:hover {
+    background: #f17228;
+}
